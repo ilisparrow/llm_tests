@@ -3,18 +3,21 @@
         "title": "Announcing DataComp: In search of the next generation of multimodal datasets",
         "date": "27 Apr, 2023",
         "link": "https://laion.ai/blog/datacomp/",
-        "summary": " LAION announced a new benchmark called DataComp to encourage studying design decisions for data sets. DataComp features CommonPool, the largest collection of image-text pairs to date with 12.8B samples and DataComp-1B, a 1.4B subset that can be used to outperform compute-matched CLIP models from OpenAI and LAION. DataComp is designed to accommodate participants with various levels of resources and features pre-determined training procedure, compute requirements, and evaluation suite. It invites participants to innovate by proposing new training sets, leaving the training code, hyper-parameters and compute fixed."
+        "summary": "LAION has released a billion-scale open-source image-text dataset, LAION-5B, which has become a staple in the open-source machine learning ecosystem. DataComp is a new benchmark for designing multimodal datasets, featuring CommonPool, the largest public collection of image-text pairs to date with 12.8B samples. DataComp-1B, a 1.4B subset of CommonPool, can be used to train a CLIP ViT-L model to 79.2% zero-shot accuracy on ImageNet, outperforming OpenAI's model trained with the same compute. DataComp encourages participants to innovate by proposing new training sets, leaving the training code, hyper-parameters and compute fixed.",
+        "answer": "LAION has released DataComp, a benchmark for designing multimodal datasets, which includes CommonPool, the largest public collection of image-text pairs to date with 12.8B samples, and DataComp-1B, a 1.4B subset that can be used to outperform compute-matched CLIP models from OpenAI and LAION."
     },
     {
         "title": "A new Paella: Simple & Efficient Text-To-Image generation",
         "date": "15 Apr, 2023",
         "link": "https://laion.ai/blog/paella/",
-        "summary": "Paella is a new text-to-image model that encodes images into a quantized latent space and is optimized with a CrossEntropy loss. The model's training and sampling code is minimalistic and can be understood and implemented in a few lines of code. It draws inspiration from existing approaches such as MaskGIT and eliminates the need for hyperparameters usually required by other models. Paella has the potential to advance the state of the art in text-to-image synthesis and make it more accessible and comprehensible to a broader audience."
+        "summary": "LAION has released a new text-to-image model called Paella which works in a quantized latent space and is simpler to understand than other state-of-the-art models. Paella is trained with a CrossEntropy loss and sampled with a 12 line code. It is conditioned on CLIP image embeddings and has been trained on the Laion-A dataset. Paella is still a work in progress, but has the potential to contribute useful insights and advance the state of the art in text-to-image synthesis.",
+        "answer": "LAION has released a new text-to-image model called Paella which is designed to be simple and efficient, and is accessible to a broader audience."
     },
     {
         "title": "Petition for keeping up the progress tempo on AI research while securing its transparency and safety.",
         "date": "29 Mar, 2023",
         "link": "https://laion.ai/blog/petition/",
-        "summary": "LAION is calling for the establishment of an international, open-source supercomputing research facility, similar to CERN, to democratize AI research and access. This will ensure societal betterment and technological independence while protecting democratic principles. Additionally, the facility should feature AI Safety research labs to quickly identify and address potential risks. Signing the petition is a way to join the campaign to ensure AI technologies are accessible to everyone in a responsible way. Together we can build a brighter future through advanced AI technologies."
+        "summary": "This petition calls for the establishment of an international, publicly funded, open-source supercomputing research facility to democratize access to AI technology and ensure its safety. It proposes the creation of AI Safety research labs to identify and address potential risks, and suggests that this will benefit small and medium-sized companies. Finally, it encourages people to join the campaign and make their voices heard in order to build a future where AI technology is accessible to all.",
+        "answer": "This petition calls for the establishment of an international, publicly funded, open-source supercomputing research facility to democratize access to AI technology and ensure its safety and transparency."
     }
 ]
