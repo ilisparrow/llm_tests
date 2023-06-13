@@ -1,20 +1,30 @@
 [
     {
-        "title": "Announcing DataComp: In search of the next generation of multimodal datasets",
-        "metadata": "by: Gabriel Ilharco , 27 Apr, 2023",
-        "link": "https://laion.ai/blog/datacomp/"
-    },
-    {
-        "title": "A new Paella: Simple & Efficient Text-To-Image generation",
-        "metadata": "by: Dominic Rampas and Pablo Pernias , 15 Apr, 2023",
-        "link": "https://laion.ai/blog/paella/"
-    },
-    {
-        "title": "Petition for keeping up the progress tempo on AI research while securing its transparency and safety.",
-        "metadata": "by: LAION.ai , 29 Mar, 2023",
-        "link": "https://laion.ai/blog/petition/",
-        "summary": "This petition calls for the establishment of an international, publicly funded, open-source supercomputing research facility to democratize access to AI technology and ensure its safety. It proposes the creation of AI Safety research labs to identify and address potential risks, and to make the results of such research transparent and available to the public. It also emphasizes the importance of taking immediate action to secure the technological independence of our society and protect democratic principles. Finally, it encourages people to join the campaign and make their voices heard.",
-        "answer": "This petition calls for the establishment of an international, publicly funded, open-source supercomputing research facility to democratize access to AI technology and ensure its safety and transparency.",
+        "title": "Mounting attacks on the Russian side of the border",
+        "metadata": "",
+        "link": "https://www.yahoo.com/news/fear-mayhem-russia-war-comes-114629222.html",
+        "summary": "The Russian-Ukrainian conflict has caused devastation and displacement on both sides of the border, with civilians in Shebekino, Russia, being the latest victims. Russian propaganda has twisted the conflict into a defensive war against the West, but the shelling of residential areas has caused some Russians to feel the pain of the war. Despite the mounting attacks, Russian resolve to win the war is still strong, and the government has done little to address the situation. The conflict has caused a great deal of suffering and confusion for those affected, with no end in sight.",
+        "answer": "This article is about the effects of the Russian-Ukrainian conflict on the Russian border town of Shebekino, where shelling from Ukraine has caused the displacement of thousands of people and destruction of property.",
         "related?": "strongly agree"
+    },
+    {
+        "title": "Will AI soon be as smart as \u2014 or smarter than \u2014 humans?",
+        "metadata": "",
+        "link": "https://news.yahoo.com/will-ai-soon-be-as-smart-as--or-smarter-than--humans-183906177.html"
+    },
+    {
+        "title": "'Hair' actor Treat Williams dies in motorcycle crash",
+        "metadata": "",
+        "link": "https://uk.news.yahoo.com/hair-everwood-actor-treat-williams-072519141.html"
+    },
+    {
+        "title": "Body recovered from I-95 collapse wreckage: Officials",
+        "metadata": "",
+        "link": "https://finance.yahoo.com/video/95-partially-collapses-philadelphia-vehicle-194000872.html"
+    },
+    {
+        "title": "Navajo law enforcement teams made contact with several hundred Native Americans from various tribes who are living on the streets in the metro Phoenix area",
+        "metadata": "",
+        "link": "https://news.yahoo.com/hundreds-tribal-members-mostly-navajo-002750523.html"
     }
 ]
