@@ -1,4 +1,4 @@
-docker stop wafer_calculator
-docker rm wafer_calculator
-docker build -t wafer_calculator-image . 
-docker run -p 8501:80 -d --name wafer_calculator wafer_calculator-image 
+docker stop bdi
+docker rm bdi
+docker build -t bdi-image . 
+docker run -p 8507:80 -d --name bdi bdi-image 

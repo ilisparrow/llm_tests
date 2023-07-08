@@ -14,7 +14,8 @@ from googlesearch import search             # Importing search function from goo
 import requests                            # Importing requests module for making HTTP requests
 import unicodedata
 import validators
-
+import bcrypt
+import hashlib
 ## SETUP ENVIRONMENT VARIABLES
 
 load_dotenv()
@@ -137,6 +138,12 @@ url_input_example = "https://news.yahoo.com"
 # url_input_example = "https://www.theguardian.com/international" #OK
 # url_input_example = "https://www.bloomberg.com/europe" #NOK
 # url_input_example = "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en" # OK
+key_pass = st.text_input("Input your keypass here")
+password_is_correct = False;
+hashed = hashlib.md5(key_pass.encode())
+if hashed.hexdigest() == "a525a0ff61ed4cd44e2068f7c71cad4b":
+    password_is_correct = True;
+
 url_to_watch = st.text_input("Input your URL here", url_input_example)
 topic_of_interest = st.text_input("What is your topic of interest ?","Ukraine War")#UI
 
@@ -150,7 +157,7 @@ else:
     st.header("ERROR : The URL is not valid")
     ### UI OUTPUT HERE
     #st.write("URL not valid")  
-if st.button("Process"):
+if st.button("Process") and password_is_correct:
     prompt_news = "Below is an html version of a news website. It contains news articles. Find the titles of news articles on this website. Do not make up article titles. List all the article titles and their metadata if it exists like date or author. Limit yourself to the first 5. In JSON format, using these keys \"title\", \"metadata\". No Other text."
 
     result_from_chatgpt = prompt_to_llm_response(text_from_webpage,prompt_news)
@@ -207,19 +214,25 @@ if st.button("Process"):
             new_item["summary"]=article_summary
             new_item["answer"]=user_question_answer
             new_item["related?"]=relation_exists
+
+            empty_list.append(new_item)
             
         #else: print("not relevant")
             
-        empty_list.append(new_item)
 
     output_json = json.dumps(empty_list, indent=4)
 
     ### UI OUTPUT HERE
-    st.json(output_json)
+    if len(empty_list)==0:
+        st.text("No relevant article found")
+    else:
+        st.text("Here are the articles related to the question above, in the latest five articles.")
+        st.json(output_json)
 
 
     for j in output_json:
-        print(j)
+        pass
+        #print(j)
 
         # st.header(article["title"])
         # st.text(article["date"])
