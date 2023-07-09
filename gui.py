@@ -14,7 +14,6 @@ from googlesearch import search             # Importing search function from goo
 import requests                            # Importing requests module for making HTTP requests
 import unicodedata
 import validators
-import bcrypt
 import hashlib
 ## SETUP ENVIRONMENT VARIABLES
 
